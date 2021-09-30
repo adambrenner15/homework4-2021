@@ -71,14 +71,23 @@ a{
 
 
 td{
-  border: 2px solid #000000;
+  border-top: 2px solid black;
   padding: 10px;
-  text-align:  center;
+  text-align: center;
+  vertical-align: middle;
+}
+th.rowhead{
+  border-top: 2px solid black;
+  border-right: 2px solid black;
+  text-align: center;
+  vertical-align: middle;
 }
 
 tr:nth-child(2n+2){
   background-color: #d1d1d1;
 }
+
+
 
 tbody tr:hover{
   background-color: rgb(126, 8, 37,0.25);
@@ -95,10 +104,7 @@ tbody tr:hover{
 
 }
 
-.rowhead{
-  border-right: 2px #000000;
-  border-top: 2px #000000;
-}
+
 
 
 table{
